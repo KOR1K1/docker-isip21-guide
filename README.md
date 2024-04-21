@@ -58,7 +58,7 @@ RUN docker-php-ext-install mysqli \
 ```
 
 ### default.conf
-```
+```nginx
 server {
     listen       80;
     listen  [::]:80;
