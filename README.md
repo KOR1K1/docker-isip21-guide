@@ -175,17 +175,17 @@ sudo docker-compose up -d
 
 ### Переходим по адресу `localhost:1337` и попадаем в phpMyAdmin
 
-![[Pasted image 20240421224147.png]]
+![](https://github.com/KOR1K1/docker-isip21-guide/blob/main/welcomeAdmin.png?raw=true)
 #### Данные для входа:
 ##### Сервер: mysql
 ##### Пользователь: root
 ##### Пароль: root
 
 ### Далее создаем бд с названием phptest
-![[Pasted image 20240421224316.png]]
+![](https://github.com/KOR1K1/docker-isip21-guide/blob/main/createdb.png?raw=true)
 
 ### Переходим на вкладку Импорт
-![[Pasted image 20240421224435.png]]
+![](https://github.com/KOR1K1/docker-isip21-guide/blob/main/importsql.png?raw=true)
 #### Выбираем файл 
 ##### phptest.sql из папки сайта
 ##### листаем вниз, жмём импорт
@@ -194,6 +194,6 @@ sudo docker-compose up -d
 ### В адресной строке вписываем `localhost/index.php`
 
 ### Результат:
-![[Pasted image 20240421224806.png]]
+![](https://github.com/KOR1K1/docker-isip21-guide/blob/main/result.png?raw=true)
 
 #### Дальше я хуй знает как это привести к норм виду
